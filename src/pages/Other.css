@@ -1,0 +1,109 @@
+/*toudi start*/
+.toudi .toudi_tab{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #e8e8e8;
+	height: 11vw;
+	line-height: 11vw;
+	margin-bottom: 10vw;
+}
+.toudi .toudi_tab a{
+	width: 100%;
+	color: #555;
+}
+.toudi_tab a.toudi_link{
+	background: #f5f5f5;
+	color: #00b38a;
+}
+
+
+.mianshi .mianshi_tab{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #e8e8e8;
+	height: 11vw;
+	line-height: 11vw;
+	margin-bottom: 10vw;
+}
+.mianshi .mianshi_tab a{
+	width: 100%;
+	color: #555;
+}
+.mianshi_tab a.mianshi_link{
+	background: #f5f5f5;
+	color: #00b38a;
+}
+.mianshi a.underline{
+	text-decoration: underline;
+	color: #00b38a;
+}
+
+
+
+.shoucang .shoucang_list{
+	
+	margin-top: 10vw;
+}
+
+
+
+.yaoyue .con{
+	width: 93vw;
+	border: 1px solid #c7f3e9;
+	margin: 10vw auto;
+	height: 50vw;
+	color: #3f4e4b;
+	background: #eafffa;
+    padding: 0 2vw;
+    box-sizing: border-box;
+    position: relative;
+}
+.yaoyue .con .icon{
+	display: block;
+	margin: 3vw auto;
+	width: 23px;
+	height: 33px;
+	background: url(https://static.lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -95px -69px;
+	background-size: 250px 250px;
+}
+.yaoyue .con .plusbtn{
+	 width: 45%;
+    margin: 9px auto;
+}
+.yaoyue .con .plusbtn span{
+	 color: #3f4e4b;
+    display: inline-block;
+    font-size: 3.6vw;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+}
+.yaoyue .con .plusbtn .btn{
+	display: inline-block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #5e5e5e;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 8px;
+}
+.yaoyue .con .plusbtn .btn .circle {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+.yaoyue .con .plusbtn .btn .close {
+    width: 12px;
+    height: 12px;
+    background: url(https://static.lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -130px -49px;
+    background-size: 250px 250px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}

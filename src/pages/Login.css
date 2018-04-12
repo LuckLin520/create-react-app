@@ -1,0 +1,74 @@
+.login{
+	width: 85vw;
+	height: 100%;
+	margin:0 auto;
+}
+.login .tit{
+	margin: 10.6vw 0 12.8vw 0; 
+	overflow: hidden;
+}
+.login .tit h2{
+	float: left;
+	font-weight: normal;
+	font-size: 5.3vw;
+}
+.login .tit p{
+	color: #00b38a;
+	font-size: 4.2vw;
+	line-height: 7vw;
+	float: right;
+}
+.login .phoneform{
+	width: 100%;
+}
+.login .phoneform p, .login .normalform p{
+	border-bottom: 1px solid #e8e9eb;
+	height: 9vw;
+	padding-top: 3.5vw;
+}
+.login .phoneform p input, .login .normalform p input{
+	border:0;
+	font-size: 4.6vw;
+	width: 64vw;
+	outline: none;
+}
+.login .phoneform p.phone span{
+	float: left;
+	width: 8.53vw;
+}
+.login .phoneform p.phone input{
+	float: right;
+}
+.login .phoneform p.imgCode span, .login p.phoneCode span{
+	float: right;
+	font-size: 3.5vw;
+	color: #666;
+}
+.login .phoneform p.imgCode input, .login p.phoneCode input{
+	float: left;
+}
+.login .normalform p input{
+	float: left;
+	text-align: left;
+}
+.login .sbt{
+	height: 11.73vw;
+	background: #00b38a;
+	margin-top: 9vw;
+	border-radius: 4px;
+	line-height: 11.7vw;
+	color: #fff;
+	margin-bottom: 4vw;
+}
+
+
+
+
+
+.login p.change{
+	position: fixed;
+	bottom: 9.6vw;
+	text-align: left;
+	font-size: 4vw;
+	color: #00b38a;
+}

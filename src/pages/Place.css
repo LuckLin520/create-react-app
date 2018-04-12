@@ -1,0 +1,40 @@
+#place header{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header span {
+  font-size: 5.5vw;
+  font-family: "宋体";
+  left:0vw;
+  position: absolute;
+  width: 10.9vw;
+}
+#place main {
+	margin-top: 12vw; 
+}
+#place main dl dt{
+	text-align: left;
+	font-size: 3.4vw;
+	color: #888;
+	padding:0.4vw 0 0.8vw 3.4vw;
+	padding-top: 1vw;
+	border-bottom: 1px solid #e8e8e8;
+}
+#place main dl dd{
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #e8e8e8;
+}
+#place main dl dd a{
+	width: 33.33%;
+	height: 14vw;
+	line-height: 14vw;
+}
+#place main dl dd a:active{
+	background: #e7f3f0;
+}
+.place_link{
+	background: #f0f0f0;
+}
+
