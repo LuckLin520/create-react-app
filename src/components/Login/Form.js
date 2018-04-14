@@ -13,7 +13,7 @@ class Form extends Component{
 				<div className="phoneform">
 					<p className="phone">
 						<span>0086</span>
-						<input type="number" 
+						<input type="text" 
 							placeholder="请输入常用手机号"
 							value={phoneform.phoneNumber}
 							onChange={this.phoneChange}
@@ -28,7 +28,7 @@ class Form extends Component{
 						<span>{phoneform.imgCode}</span>
 					</p>
 					<p className="phoneCode">
-						<input type="number" 
+						<input type="text" 
 							placeholder="请输入收到的验证码"
 							value={phoneform.phoneCode}
 							onChange={this.phoneChange}
@@ -42,7 +42,7 @@ class Form extends Component{
 		return(
 			<div className="normalform">
 				<p className="phone">
-					<input type="number" 
+					<input type="text" 
 						placeholder="请输入已验证的手机号或邮箱"
 						value={normalform.phoneEmail}
 						onChange={this.normalChange}

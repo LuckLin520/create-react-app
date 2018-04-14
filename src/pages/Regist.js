@@ -24,7 +24,7 @@ class Regist extends Component{
 				<div className="form">
 					<p className="phone" style={{borderBottomColor: this.state.warningColor}}>
 						<span>0086</span>
-						<input type="number" 
+						<input type="text" 
 							placeholder="请输入常用手机号"
 							value={this.state.phone}
 							onChange={this.putChange}
@@ -39,7 +39,7 @@ class Regist extends Component{
 						<span>{this.state.imgCode}</span>
 					</p>
 					<p className="phoneCode">
-						<input type="number" 
+						<input type="text" 
 							placeholder="请输入收到的验证码"
 							value={this.state.phoneCode}
 							onChange={this.putChange}
